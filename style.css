@@ -1,0 +1,43 @@
+* {
+ background-color: #000000;
+ color: #ffffff;
+}
+
+body{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 0.1cap;
+}
+
+.increment{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    
+}
+
+button{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+}
+
+#clear{
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 1px white;
+}
+
